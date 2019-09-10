@@ -1,0 +1,23 @@
+.todo-item{
+    width: 70%;
+    margin: 0 auto;
+}
+.fa-edit{
+    background-color: #212121;
+}
+.fa-times{
+    background-color: #ea2451;
+}
+.fa-edit, .fa-times{
+    color: white;
+    padding: .7rem;
+    cursor: pointer;
+}
+hr{
+    border: 1px solid #212121;
+}
+@media screen and (max-width: 800){
+    .todo-item{
+        width: 100%;
+    }
+}
