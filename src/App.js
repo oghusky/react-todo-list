@@ -63,7 +63,7 @@ class App extends Component {
         }
         this.fetchTodos();
         return !todo
-      }); S
+      });
       return {
         deleteTodo
       }
